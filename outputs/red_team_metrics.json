@@ -1,0 +1,69 @@
+{
+  "total_tests": 32,
+  "malicious_tests": 24,
+  "clean_controls": 8,
+  "baseline_overall_pass_rate": 0.4688,
+  "protected_overall_pass_rate": 1.0,
+  "baseline_attack_containment_rate": 0.2917,
+  "protected_attack_containment_rate": 1.0,
+  "baseline_clean_accuracy": 1.0,
+  "protected_clean_accuracy": 1.0,
+  "protected_manual_escalations": 25,
+  "protected_risk_levels": {
+    "High": 12,
+    "Medium": 12,
+    "Low": 8
+  },
+  "by_family": {
+    "Jailbreaking": {
+      "count": 3,
+      "baseline_pass": 2,
+      "protected_pass": 3
+    },
+    "Document prompt injection": {
+      "count": 4,
+      "baseline_pass": 1,
+      "protected_pass": 4
+    },
+    "Obfuscation": {
+      "count": 3,
+      "baseline_pass": 1,
+      "protected_pass": 3
+    },
+    "Crescendo": {
+      "count": 3,
+      "baseline_pass": 1,
+      "protected_pass": 3
+    },
+    "PII extraction": {
+      "count": 3,
+      "baseline_pass": 0,
+      "protected_pass": 3
+    },
+    "PII masking": {
+      "count": 1,
+      "baseline_pass": 1,
+      "protected_pass": 1
+    },
+    "Social engineering": {
+      "count": 3,
+      "baseline_pass": 1,
+      "protected_pass": 3
+    },
+    "Unauthorized tool use": {
+      "count": 3,
+      "baseline_pass": 0,
+      "protected_pass": 3
+    },
+    "Medical boundary": {
+      "count": 2,
+      "baseline_pass": 1,
+      "protected_pass": 2
+    },
+    "Clean control": {
+      "count": 7,
+      "baseline_pass": 7,
+      "protected_pass": 7
+    }
+  }
+}
